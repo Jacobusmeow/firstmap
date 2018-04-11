@@ -64,3 +64,20 @@ console.log(Benutzer);
 for (let i=0; i<=10; i++) {
 console.log("Wert von i:", i);
 }
+//jetzt lernen wir was eine funktion ist. sammeln von funktionen die man immer wieder mal braucht
+function showAge(birthYear){
+    //rechnung einbauen - neue variable erzeugen
+    let age = 2018 - birthYear;
+    console.log("Du bist ", age, "Jahre alt");
+}
+//funktion aufrufen 
+showAge(1964);
+showAge(1991);
+showAge(1999);
+showAge(2017);
+//noch eine funktion - zurück zu der stelle wo ausgegeben worden ist
+function calcAge(birthYear) {
+    return 2018 - birthYear;
+}
+console.log("Du bist", calcAge(1999), "Jahre");
+console.log("und du", calcAge(1991), ".");
