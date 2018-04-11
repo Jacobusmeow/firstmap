@@ -49,3 +49,18 @@ console.log("Benutzer Alter: ", Benutzer.alter);
 Benutzer.bestzeit = 200;
 Benutzer["bestzeit ever"] = 100; 
 console.log(Benutzer);
+//neuer Befehl promt eröffent ein Dialogfenster
+// let alter = prompt("wie alt bist du?");
+// console.log("Du bist", alter, "Jahre alt");
+// //überprüfung der eingabe, ob über/unter 18 ergebnis true oder false
+// console.log("über 18?", alter > 18);
+// //bedingung erstellen - if ist ein sehr wichtiges sytnax-objekt
+// if (alter > 18) {
+//     console.log("du darfst hinein");
+// } else {
+//     console.log("noch nicht 18...");
+// }
+//schleife zur wiederholung bestimmter ..? nach gängigen regeln nennt man die "i" i++ fügt einen hinzu <=10 schleife läuft bis 10! und nicht nur bis 9
+for (let i=0; i<=10; i++) {
+console.log("Wert von i:", i);
+}
