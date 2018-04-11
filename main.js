@@ -29,3 +29,23 @@ let isOver18 = true;
 console.log("über18?", isOver18);
 let age = 17;
 console.log("age über 18", age > 18);
+//mehrere Datentypen zusammenfassen
+let zahlenliste = [2, 11, 24, 33];
+console.log(zahlenliste);
+let namensListe = [ "Jane", "John", "Jacob"];
+console.log(namensListe[0]);
+//länge ausgeben
+console.log(namensListe.length);
+console.log("Anzahl der Namen: ", namensListe.length);
+//datentyp objekt, darin können mehrere variablen gespeichert werden
+let Benutzer = {
+    vorname: "Jane",
+    nachname: "Doe",
+    alter: 28
+};
+console.log("Benutzer: ", Benutzer);
+console.log("Benutzer Alter: ", Benutzer.alter);
+//liste erweitern:
+Benutzer.bestzeit = 200;
+Benutzer["bestzeit ever"] = 100; 
+console.log(Benutzer);
